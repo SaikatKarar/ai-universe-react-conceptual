@@ -1,12 +1,15 @@
 import './App.css'
+import Buttons from './component/Buttons/Buttons'
+import Card from './component/Card/Card'
+import Header from './component/Header/Header'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Header />
+      <Buttons>Shot By Data</Buttons>
+      <Card />
     </>
   )
 }
